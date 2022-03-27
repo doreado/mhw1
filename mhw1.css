@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+header {
+    position: relative;
+    height: 700px;
+
+    background-image: url("./figures/bg.jpeg");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+header nav {
+  background-color: rgba(146,131,116, .5);
+  background-color: #504945;
+  background-color: rgba(80, 63, 79, .5);
+  padding: 20px;
+  /* background-color: #282828; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+    font-family: 'Oswald', sans-serif;
+    /* color: #282828; */
+    margin-bottom: 0px;
+}
+
+section {
+  /* padding: 5%; */
+  margin: 100px 50px;
+}
+
+.section-entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.section-entry h1 {
+  text-align: left;
+  font-size: 3em;
+}
+.entry-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#content-pic {
+  height: 50%;
+  width: 50%;
+  border: 3px solid white;
+}
+
+footer {
+  background-color: #504945;
+  padding: 5px;
+  text-align: center;
+}
