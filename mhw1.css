@@ -38,15 +38,13 @@ nav {
   font-size: 1em;
   font-style: normal;
 
+  z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-
   padding: 2px 20px;
 
-  background-color: #fb4934;
-  background-color: rgba(146,131,116, .7);
   background-color: rgba(80, 63, 79, .5);
 
   display: flex;
@@ -88,9 +86,6 @@ header {
 
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* align-items: flex-start; */
-  /* justify-content: space-between; */
 }
 
 header::before {
@@ -120,7 +115,6 @@ section {
   font-style: normal;
   text-align: left;
 
-  padding: 5%;
   margin: 6% 3%;
 
   display: flex;
@@ -129,11 +123,6 @@ section {
 
 .section-entry-even,
 .section-entry-odd {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
   border-top: 5px solid var(--green);
   margin-bottom: 20px;
   padding: 0px;
@@ -158,16 +147,6 @@ section {
   letter-spacing: .15em;
   font-size: 4em;
   font-weight: bold;
-}
-
-.section-entry-odd h1 {
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-}
-
-.section-entry-even h1 {
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
 }
 
 .entry-content {
